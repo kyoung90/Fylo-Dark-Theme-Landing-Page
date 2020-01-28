@@ -12,5 +12,14 @@
 - White: hsl(0, 0%, 100%) */
 
 body {
-    background-color: hsl(218, 28%, 13%)
+  background-color: hsl(218, 28%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
