@@ -44,6 +44,17 @@ body {
     font-size: smaller;
 }
 
+.content {
+    display: flex; 
+    flex-direction: column;
+}
+
+.main-image {
+    height: 14.5em;
+    padding: 2em;
+    padding-top: 2.5em;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
