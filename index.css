@@ -12,7 +12,8 @@
 - White: hsl(0, 0%, 100%) */
 
 body {
-  background-color: hsl(218, 28%, 13%);
+  margin: 0px;
+  background-color:  hsl(217, 28%, 15%);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -22,6 +23,7 @@ body {
     align-items: center;
     padding-top: 1.5em;
     padding-left: 1em;
+    padding-right: 1em;
 }
 
 .header-brand {
@@ -54,11 +56,20 @@ body {
 
 .main-image {
     height: 14.5em;
-    padding: 2em;
     padding-top: 2.5em;
 }
 
+.header {
+  background-image: url("./images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  /* background-size: ; */
+  background-position-y: 80%;
+}
 
+.sub-header {
+  margin-right: .5em;
+  margin-left: .5em;
+}
 
 .attribution {
   font-size: 11px;
