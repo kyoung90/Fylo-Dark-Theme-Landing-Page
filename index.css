@@ -155,10 +155,16 @@ a {
   align-items: center;
 }
 
+.person-name {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
 .title {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 1em;
 }
 
 .title * {
