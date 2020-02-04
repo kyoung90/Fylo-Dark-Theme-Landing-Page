@@ -261,7 +261,9 @@ form {
 footer {
   display: flex;
   flex-direction: column; 
-  padding: 2em;
+  padding-top: 15em;
+  padding-right: 2em;
+  padding-left: 2em;
   color: white;
   background-color: hsl(216, 53%, 9%);
 }
@@ -318,6 +320,7 @@ footer {
 
 .footer-logo{
 height: 2.5em;
+margin-bottom: 2em;
 }
 
 .icons {
