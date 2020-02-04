@@ -153,6 +153,8 @@ a {
   padding: 1.5em;
   font-weight: 400;
   font-size: 0.8em;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3)
 }
 
 .rounded {
@@ -251,6 +253,10 @@ form {
     hsl(198, 60%, 50%) 100%
   );
  padding: 0px !important;
+
+}
+
+.footer-logo{
 
 }
 
