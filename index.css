@@ -15,6 +15,7 @@ body {
   margin: 0px;
   background-color: hsl(217, 28%, 15%);
   font-family: "Open Sans", sans-serif;
+  /* font-size: 14px; */
 }
 
 .navbar {
@@ -73,7 +74,9 @@ body {
 }
 
 .summary-paragraph {
-  padding: 0px 1em;
+  /* top right bottom left */
+  padding: 0px 20px 0px 20px;
+  font-size: 14px;
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
@@ -121,24 +124,30 @@ body {
 }
 
 .main-image {
-  padding-top: 5em;
+  padding-top: 115px;
+  padding-bottom: 43px;
 }
 
 .stay-productive-blurb {
   text-align: left;
   padding-left: 1.5em;
   padding-right: 1em;
-  padding-bottom: 6em;
+  padding-bottom: 9em;
+}
+
+.definition-paragraph{
+  font-size: 14px;
 }
 
 h3 {
   font-family: "Raleway", sans-serif;
-  margin: 1.5em;
+  margin: .2em;
   margin-bottom: 0.5em;
 }
 
 a {
   color: hsl(176, 68%, 64%);
+  font-size: 14px;
 }
 
 .card-group {
@@ -197,7 +206,11 @@ a {
 
 .early-access {
   position: relative;
-  top: 14em;
+  padding-top: 2.5em !important;
+  padding-bottom: 2.5em !important;
+  padding-left: .7em !important;
+  padding-right: .7em !important;
+  top: 10.4em;
   display: flex;
   flex-direction: column;
   align-items: center !important;
@@ -210,7 +223,8 @@ a {
 
 .early-access-p {
   text-align: center;
-  margin: 1.8em;
+  margin: .8em;
+  padding-bottom: 16px;
 }
 
 .email-input::placeholder{
@@ -272,6 +286,7 @@ form {
 footer {
   display: flex;
   flex-direction: column; 
+  margin-top: -3em;
   padding-top: 15em;
   padding-right: 2em;
   padding-left: 2em;
