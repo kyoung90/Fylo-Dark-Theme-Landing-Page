@@ -117,6 +117,7 @@ body {
 
 .blurbs {
   margin-top: 2em;
+  margin-bottom: 3.3em;
 }
 
 .main-image {
@@ -128,6 +129,17 @@ body {
   padding-left: 1.5em;
   padding-right: 1em;
   padding-bottom: 6em;
+}
+
+.illustration-icon {
+  width: 65px;
+  height: auto;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  margin: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 a {
