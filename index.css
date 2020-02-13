@@ -144,14 +144,38 @@ body {
   .main-image {
     width: 750px;
     height: 550px;
+    padding-top: 0px !important;
   }
   .summary-paragraph {
-    padding-left: 70px;
-    padding-right: 70px;
+    font-size: 14px;
   }
 
   .header-brand {
     height: 38px;
+  }
+  .stay-productive-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .stay-productive-blurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .stay-productive-header {
+    font-size: 32px;
+  }
+  .stay-prod-span {
+    display: block;
+  }
+
+  .main-image {
+    width: 650px;
+    height: 500px;
+  }
+
+  .definition-paragraph {
+    width: 500px;
   }
 }
 
